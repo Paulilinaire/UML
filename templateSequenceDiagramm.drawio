@@ -1,9 +1,83 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="3Hm1E-CDl1q9NbBkty4j">
-    <mxGraphModel>
+    <mxGraphModel dx="2034" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-23" value="Save Layout to DB" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0062" y="2" relative="1" as="geometry">
+            <mxPoint x="510" y="162" as="sourcePoint" />
+            <mxPoint x="680" y="162" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="651" y="162" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-27" value="Create Template Layout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint x="270" y="107" as="sourcePoint" />
+            <mxPoint x="460" y="107" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="107" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-67" value="Recevoir Courrier" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-65" y="180" as="sourcePoint" />
+            <mxPoint x="-64.99999999999977" y="379.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-68" value="Aidé" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-76" value="Personnalize Document Content" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;exitX=0.505;exitY=0.616;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint x="75" y="199.70999999999998" as="sourcePoint" />
+            <mxPoint x="340" y="199.70999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="199.70999999999998" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-79" value="Generate Document" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;exitX=0.505;exitY=0.616;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint x="75" y="290.02" as="sourcePoint" />
+            <mxPoint x="340" y="290.02" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="290.02" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-109" value="Generate Final Document" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1">
+          <mxGeometry x="0.0588" relative="1" as="geometry">
+            <mxPoint x="630" y="360" as="sourcePoint" />
+            <mxPoint x="800" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-113" value="Employee" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="180" y="20" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-114" value="React Front-End" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-115" value="Php Symfony" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="20" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-116" value="Legacy Back-end" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="630" y="20" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Yb9NSBSj7pfFtIm7R3fw-118" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="780" y="20" width="100" height="620" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
